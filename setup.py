@@ -16,6 +16,8 @@ setup(
   url = 'https://github.com/jordanh/neurio-python',
   download_url = 'https://github.com/jordanh/neurio-python/tarball/0.3.0',
   keywords = ['neurio', 'iot', 'energy', 'sensor', 'smarthome', 'automation'],
-  classifiers = [],
+  classifiers = [
+      'License :: OSI Approved :: Apache Software License'
+  ],
   install_requires = ['requests'],
 )
